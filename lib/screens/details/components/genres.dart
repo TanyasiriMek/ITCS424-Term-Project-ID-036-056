@@ -20,9 +20,9 @@ class Genres extends StatelessWidget {
         height: 36,
         child: ListView.builder(
           scrollDirection: Axis.horizontal,
-          itemCount: movie.genra.length,
+          itemCount: movie.genre.length,
           itemBuilder: (context, index) => GenreCard(
-            genre: movie.genra[index],
+            genre: movie.genre[index],
           ),
         ),
       ),
